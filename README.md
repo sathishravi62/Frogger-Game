@@ -20,13 +20,13 @@ This project is just a reskin of Frogger-Game 1981.
 
 # Project Structure
 
-  1) GameManager Class :- This Class is used to control the over all state of the game.
+ # GameManager Class :- This Class is used to control the over all state of the game.
       # CheckGameOver()  This Function is used to check whether the game is over or not and reduce lives
       # SpawnHome()      This function used spawn the home if player reached using the argument
       # CheckWin()       This function is used to check the win condition
-      4) CountDown()      This function is used for Time CountDown
-      5) GameStart()      This Function used to Start the game by countdown
-      6) RestartGame()    Use to restart the Game
+      # CountDown()      This function is used for Time CountDown
+      # GameStart()      This Function used to Start the game by countdown
+      # RestartGame()    Use to restart the Game
       
   2) Player Control:-     The purpos of this PlayerControl Class is to control the player movement,animation and the collision detection between different obstacle.
 
