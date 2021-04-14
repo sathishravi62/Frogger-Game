@@ -4,7 +4,7 @@
 
 This project is just a reskin of Frogger-Game 1981. 
 
-# Project Flow 
+# Game Flow 
 
 * Game Start with a countdown from 5. 
 * Once the game starts the player is able to move the character in all four directions and the obstacles from both the game areas start to spawn within a given time interval and     move across the screen.
@@ -18,7 +18,7 @@ This project is just a reskin of Frogger-Game 1981.
 # Flow Diagram
 ![](image_2021-04-14_132216.png)
 
-# Project Structure
+# Game Structure
 
  # GameManager Class :- This Class is used to control the over all state of the game.
       # CheckGameOver()  This Function is used to check whether the game is over or not and reduce lives
@@ -66,5 +66,10 @@ This project is just a reskin of Frogger-Game 1981.
       # PlaySound()   This function used play correct audio based on the argument passed.
 
 # Screen shots: 
+![](InGame.PNG)
+![](InGame_2.PNG)
 
-
+# Credits:
+* Art asset:- https://www.spriters-resource.com
+* Sound:-     http://www.classicgaming.cc/classics/frogger/sounds 
+* BG Sound:-  https://www.101soundboards.com/sounds/477887-frogger#    
