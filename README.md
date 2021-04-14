@@ -28,5 +28,9 @@ This project is just a reskin of Frogger-Game 1981.
       # GameStart()      This Function used to Start the game by countdown
       # RestartGame()    Use to restart the Game
       
-  2) Player Control:-     The purpos of this PlayerControl Class is to control the player movement,animation and the collision detection between different obstacle.
+ # Player Control:-    The purpos of this PlayerControl Class is to control the player movement,animation and the collision detection between different obstacle.
+      # Movement()      This Function used to move the character and play animation and hop sound
+      # CheckPlayerInRiver() This function is creted to check whether the player is fell down in the water or move with the obstacle in the river part of the level portion
+      # ResetPlayer()  This function used to reset the player properties
+      # Die() This function used to disable the player control
 
