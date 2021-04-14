@@ -65,6 +65,6 @@ This project is just a reskin of Frogger-Game 1981.
       # AudioClipData This struct is used store clip data with its enum
       # PlaySound()   This function used play correct audio based on the argument passed.
 
-# Screen Shots: 
+# Screen shots: 
 
 
