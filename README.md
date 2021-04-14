@@ -35,21 +35,21 @@ This project is just a reskin of Frogger-Game 1981.
       # Die()                This function used to disable the player control
       
  # SpawnObject Class:- This class used to spawn the obstacle in the game and this class create is own object polling for the obstacle object and use it to spawn obstacle
-      # SpawnMode This Enum is use to determain whether want to spawn single object or multiple object
-      # SpawnObjectStruct This struct use to store the information about the Spawnobject and its poll list
-      # CreatePoll() This function is used to create the poll for the object using spawnObjects data.
-      # CreateObject() This function is used to create object and add to poll List.
+      # SpawnMode            This Enum is use to determain whether want to spawn single object or multiple object
+      # SpawnObjectStruct    This struct use to store the information about the Spawnobject and its poll list
+      # CreatePoll()         This function is used to create the poll for the object using spawnObjects data.
+      # CreateObject()       This function is used to create object and add to poll List.
       # GetObjectFromPoll()  This Function use to get the object from the poll list with the help of argument.
-      # Spawn() This Funtion is used get the index based on the sapwnmode and trigger the sapwn function.
-      # SpawnObjects() This function is used to spawn actual object with the help of index value which is passed as an argument
+      # Spawn()              This Funtion is used get the index based on the sapwnmode and trigger the sapwn function.
+      # SpawnObjects()       This function is used to spawn actual object with the help of index value which is passed as an argument
       
  # MoveObstacle Class:- This class is use to move the object in given Direction and To check whether the object left the game area if so disable the object
-      # SetDir() This function is used to set the Direction and find the right value for that direction
+      # SetDir()     This function is used to set the Direction and find the right value for that direction
       # Deactivate() This function is used to check whether the object left the game area and if so disable the object
  
  # Lives Class:- This Class is use to store the data related player Lives
       # ReduceLives() This Function is used to Reduce player lives by 1
-      # IsDead() This function is used to check whether player is dead or not.
+      # IsDead()      This function is used to check whether player is dead or not.
       
  # ScoreManager Class:- This class is used for store the current and high score of the game
       # UpdateScore() This function is used Update the score
@@ -61,7 +61,10 @@ This project is just a reskin of Frogger-Game 1981.
       # EnabelCollider()  Use to Activating the collider
  
  # AudioManager Class:- This class is used to manage the audio of the game.
-      # AUDIOTYPE  This enum used to identify the correct audio clip.
+      # AUDIOTYPE     This enum used to identify the correct audio clip.
       # AudioClipData This struct is used store clip data with its enum
-      # PlaySound() This function used play correct audio based on the argument passed
+      # PlaySound()   This function used play correct audio based on the argument passed.
+
+# Screen Shots: 
+
 
