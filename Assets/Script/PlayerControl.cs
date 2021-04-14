@@ -26,7 +26,7 @@ public class PlayerControl : MonoBehaviour
         Die();
     }
 
-    private void Die()
+    private void Die() // This function used to disable the player control.
     {
         if(GameManager.Instance.isgameOver) // Checking whether the game is over
         {
@@ -57,7 +57,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    private void Movement()
+    private void Movement() // This Function used to move the character and play animation and hop sound
     {
         if (!Lives.Instance.reduced)// checking whether health reduced in completed so we can let new player to move
         {
@@ -137,7 +137,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    public void ResetPlayer()
+    public void ResetPlayer() // This function used to reset the player properties
     {
         if(!GameManager.Instance.isgameOver) // Check whether the game is not over.
         {

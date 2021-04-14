@@ -73,7 +73,7 @@ public class SpawnObject : MonoBehaviour
     }
 
 
-    public void Spawn() // This Funtion is used to spawn an object
+    public void Spawn() // This Funtion is used get the index based on the sapwnmode and trigger the sapwn function
     {
 
         if (spawnMode == SpawnMode.MULTIPLE_OBJECT) // checking whether the spawn type is Multiple
