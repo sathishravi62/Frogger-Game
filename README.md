@@ -66,5 +66,6 @@ This project is just a reskin of Frogger-Game 1981.
       # PlaySound()   This function used play correct audio based on the argument passed.
 
 # Screen shots: 
-
+![](InGame.PNG)
+![](InGame_2.PNG)
 
