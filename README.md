@@ -33,13 +33,14 @@ This project is just a reskin of Frogger-Game 1981.
       # CheckPlayerInRiver() This function is creted to check whether the player is fell down in the water or move with the obstacle in the river part of the level portion
       # ResetPlayer()        This function used to reset the player properties
       # Die()                This function used to disable the player control
+ # Objectpoll Class:-  This class create Object poll for every obstacle
+      # CreatePool() This function is used to create a poll from the given object
+      # CreateObject() This function used to create an poll object  and add it to the list
+      # GetObjectFromPoll() This Funtion used to get the object from the list with the help of argument
+      # CheckAlreayInList() This function used to check wether object is in the list.
       
- # SpawnObject Class:- This class used to spawn the obstacle in the game and this class create is own object polling for the obstacle object and use it to spawn obstacle
+ # SpawnObject Class:- This class used to spawn the obstacle in the game with the help of ObjectPoll Class
       # SpawnMode            This Enum is use to determain whether want to spawn single object or multiple object
-      # SpawnObjectStruct    This struct use to store the information about the Spawnobject and its poll list
-      # CreatePoll()         This function is used to create the poll for the object using spawnObjects data.
-      # CreateObject()       This function is used to create object and add to poll List.
-      # GetObjectFromPoll()  This Function use to get the object from the poll list with the help of argument.
       # Spawn()              This Funtion is used get the index based on the sapwnmode and trigger the sapwn function.
       # SpawnObjects()       This function is used to spawn actual object with the help of index value which is passed as an argument
       
@@ -52,9 +53,7 @@ This project is just a reskin of Frogger-Game 1981.
       # IsDead()      This function is used to check whether player is dead or not.
       
  # ScoreManager Class:- This class is used for store the current and high score of the game
-      # UpdateScore() This function is used Update the score
-      
- # DestroyObject Class:- This class only used for destroying the small corcodile
+      # UpdateScore() This function is used Update the score      
  
  # TurtleColliderDestroy Class:- This class is used to Deactivate and Activate the collider which attached to the Object 
       # DisableCollider() Use to Deactive the collider
