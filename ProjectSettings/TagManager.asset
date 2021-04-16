@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - River
+  - Home
+  - Obstacle
+  - Move
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 707297443
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2547707703
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3780816881
+    locked: 0
+  - name: Player
+    uniqueID: 3595857559
     locked: 0

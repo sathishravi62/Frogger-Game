@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
         startText.GetComponentInChildren<TMP_Text>().text = "TIME:" + (int)_currentTime;
         ScoreManager.Instance.UpdateScore((int)_currentTime * 10); // Update the score by remaining time 
         _currentTime = countDownTime; // Reseting the Time
+        Invoke("DeactivateTimerText", 1f);
         
     }
 
@@ -137,9 +138,13 @@ public class GameManager : MonoBehaviour
         }
         
     }
-
     void RestartGame() // Use to restart the Game
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Restart the current scene
+    }
+
+    void DeactivateTimerText()
+    {
+        startText.SetActive(false);
     }
 }

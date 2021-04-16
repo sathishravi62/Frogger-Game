@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4325711867482814539}
   - component: {fileID: 4325711867482814536}
   - component: {fileID: 4325711867482814537}
-  - component: {fileID: 6298773660769472710}
   - component: {fileID: -4990504709979032855}
   m_Layer: 0
   m_Name: Small Crocodile
@@ -72,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -754628569
+  m_SortingLayerID: -514150415
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 8891462170180379164, guid: 959b6d175e20b0a4a907148cf5a8bac3,
@@ -142,18 +141,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb7db29ad6e2c3d48b3cbbe5af9d49d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6298773660769472710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4325711867482814582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01b2c83a77eef7240b75d1d2d044dc31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &-4990504709979032855

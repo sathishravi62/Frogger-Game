@@ -115,6 +115,7 @@ public class PlayerControl : MonoBehaviour
                 GameManager.Instance.SpawnHome(other.transform); // if so call spawnhome function and passing the argument
                 ResetPlayer();                                   // calling reset function to start again.
                 GameManager.Instance.CheckWin(); // calling CheckWin function.
+              
             }
             else
             {

@@ -308,8 +308,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1601594008581696620, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -383,15 +383,12 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 1
   spawnObjects:
-  - Name: RaceCar2
-    spawnObject: {fileID: 2276645512850703034, guid: cfc66e93b3d10c84aa367724592ce8c6,
-      type: 3}
-    pollEvent: []
-  - Name: 2xRaceCar2
-    spawnObject: {fileID: 1047834371836147179, guid: 1a38db994f131b942b6c308c0479c10a,
-      type: 3}
-    pollEvent: []
-  spawnTime: 2
+  - {fileID: 2276645512850703034, guid: cfc66e93b3d10c84aa367724592ce8c6, type: 3}
+  - {fileID: 1047834371836147179, guid: 1a38db994f131b942b6c308c0479c10a, type: 3}
+  - {fileID: 2276645512850703034, guid: cfc66e93b3d10c84aa367724592ce8c6, type: 3}
+  - {fileID: 2276645512850703034, guid: cfc66e93b3d10c84aa367724592ce8c6, type: 3}
+  spawnTimeMin: 1.8
+  spawnTimeMax: 2
   moveSpeed: 4
   startSpawnTime: 0.25
 --- !u!1 &141007071
@@ -447,8 +444,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1754145331
-  m_SortingLayer: 0
+  m_SortingLayerID: 707297443
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -45454928851993344, guid: 959b6d175e20b0a4a907148cf5a8bac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -660,8 +657,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -742,8 +739,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -824,8 +821,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -906,8 +903,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -1063,8 +1060,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -1213,11 +1210,9 @@ MonoBehaviour:
   moveDir: 1
   spawnMode: 0
   spawnObjects:
-  - Name: RaceCar
-    spawnObject: {fileID: 207595825015634202, guid: 03292d849d1ae7740a259d39f1e6e68c,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3
+  - {fileID: 207595825015634202, guid: 03292d849d1ae7740a259d39f1e6e68c, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 3
   moveSpeed: 2
   startSpawnTime: 0.25
 --- !u!1 &441331792
@@ -1266,25 +1261,10 @@ MonoBehaviour:
   moveDir: 1
   spawnMode: 1
   spawnObjects:
-  - Name: 2xTurtle
-    spawnObject: {fileID: 1477015209699150818, guid: 774e0740b4c1ded4c854697b3731620d,
-      type: 3}
-    pollEvent:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  - Name: 2xTurtleSwim
-    spawnObject: {fileID: 5561660009154658838, guid: 2bbcd49ddadd00146855fa0b39be9c50,
-      type: 3}
-    pollEvent:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  spawnTime: 1.5
+  - {fileID: 5561660009154658838, guid: 2bbcd49ddadd00146855fa0b39be9c50, type: 3}
+  - {fileID: 1477015209699150818, guid: 774e0740b4c1ded4c854697b3731620d, type: 3}
+  spawnTimeMin: 1.5
+  spawnTimeMax: 2
   moveSpeed: 4
   startSpawnTime: 0.25
 --- !u!1 &442810445
@@ -1340,8 +1320,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -1415,15 +1395,12 @@ MonoBehaviour:
   moveDir: 1
   spawnMode: 1
   spawnObjects:
-  - Name: Car
-    spawnObject: {fileID: 6315003784601722575, guid: 1a88c3ba4c05c0547bbeeb05dd0d18cb,
-      type: 3}
-    pollEvent: []
-  - Name: 2xCar
-    spawnObject: {fileID: 5995037789517763503, guid: 792981bf129eb664c9bb5cc19fa9bb9a,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3
+  - {fileID: 6315003784601722575, guid: 1a88c3ba4c05c0547bbeeb05dd0d18cb, type: 3}
+  - {fileID: 5995037789517763503, guid: 792981bf129eb664c9bb5cc19fa9bb9a, type: 3}
+  - {fileID: 6315003784601722575, guid: 1a88c3ba4c05c0547bbeeb05dd0d18cb, type: 3}
+  - {fileID: 6315003784601722575, guid: 1a88c3ba4c05c0547bbeeb05dd0d18cb, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 2.5
   moveSpeed: 3
   startSpawnTime: 0.25
 --- !u!1 &487659498
@@ -1472,11 +1449,9 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 0
   spawnObjects:
-  - Name: Truck
-    spawnObject: {fileID: 1465466471607923278, guid: f3d6f32b612fda949aa6437a7a1b5777,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3
+  - {fileID: 1465466471607923278, guid: f3d6f32b612fda949aa6437a7a1b5777, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 3
   moveSpeed: 2
   startSpawnTime: 0.25
 --- !u!1 &513796244
@@ -1532,8 +1507,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -1697,8 +1672,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1601594008581696620, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -1773,15 +1748,12 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 1
   spawnObjects:
-  - Name: Mediumlog
-    spawnObject: {fileID: 8969940703916506561, guid: 714e414949b1b754a95a5a09433cb3b1,
-      type: 3}
-    pollEvent: []
-  - Name: Crocodile
-    spawnObject: {fileID: 1990064747773004791, guid: e0cade4d8ac470e429e6dc156bcbdcf9,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3
+  - {fileID: 8969940703916506561, guid: 714e414949b1b754a95a5a09433cb3b1, type: 3}
+  - {fileID: 1990064747773004791, guid: e0cade4d8ac470e429e6dc156bcbdcf9, type: 3}
+  - {fileID: 8969940703916506561, guid: 714e414949b1b754a95a5a09433cb3b1, type: 3}
+  - {fileID: 8969940703916506561, guid: 714e414949b1b754a95a5a09433cb3b1, type: 3}
+  spawnTimeMin: 3
+  spawnTimeMax: 3.5
   moveSpeed: 2
   startSpawnTime: 0.25
 --- !u!114 &541124413
@@ -1799,11 +1771,9 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 0
   spawnObjects:
-  - Name: Small Crocodile
-    spawnObject: {fileID: 4325711867482814582, guid: f8b07038f2471e443b53a3f1e2012d5c,
-      type: 3}
-    pollEvent: []
-  spawnTime: 10
+  - {fileID: 4325711867482814582, guid: f8b07038f2471e443b53a3f1e2012d5c, type: 3}
+  spawnTimeMin: 20
+  spawnTimeMax: 25
   moveSpeed: 3
   startSpawnTime: 0
 --- !u!1 &550782752
@@ -1859,8 +1829,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2231,8 +2201,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2313,8 +2283,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2396,8 +2366,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1814263032114513203, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2592,8 +2562,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2674,8 +2644,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2820,15 +2790,10 @@ MonoBehaviour:
   moveDir: 1
   spawnMode: 1
   spawnObjects:
-  - Name: 3XTurtuleSwim
-    spawnObject: {fileID: 8926967257730322655, guid: e6e6e746ead042f46a4b51426c63e51e,
-      type: 3}
-    pollEvent: []
-  - Name: 3XTurtule
-    spawnObject: {fileID: 7974708570861938913, guid: fb8cce3a6376ecf46a09beea779e60e4,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3
+  - {fileID: 8926967257730322655, guid: e6e6e746ead042f46a4b51426c63e51e, type: 3}
+  - {fileID: 7974708570861938913, guid: fb8cce3a6376ecf46a09beea779e60e4, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 3
   moveSpeed: 2
   startSpawnTime: 0.25
 --- !u!1 &840518465
@@ -2884,8 +2849,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -2966,8 +2931,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -3391,8 +3356,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -3510,8 +3475,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1814263032114513203, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -3618,8 +3583,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -3757,8 +3722,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1601594008581696620, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -3890,11 +3855,9 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 0
   spawnObjects:
-  - Name: SmallLog
-    spawnObject: {fileID: 5420252853850129842, guid: 4a66f6804ccec4b45899b31ee37632b5,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3
+  - {fileID: 5420252853850129842, guid: 4a66f6804ccec4b45899b31ee37632b5, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 3
   moveSpeed: 2
   startSpawnTime: 0.25
 --- !u!114 &1171054996
@@ -3912,11 +3875,9 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 0
   spawnObjects:
-  - Name: Small Crocodile
-    spawnObject: {fileID: 4325711867482814582, guid: f8b07038f2471e443b53a3f1e2012d5c,
-      type: 3}
-    pollEvent: []
-  spawnTime: 20
+  - {fileID: 4325711867482814582, guid: f8b07038f2471e443b53a3f1e2012d5c, type: 3}
+  spawnTimeMin: 20
+  spawnTimeMax: 25
   moveSpeed: 3
   startSpawnTime: 0
 --- !u!1 &1176175269
@@ -3972,8 +3933,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -4054,8 +4015,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1601594008581696620, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -4137,8 +4098,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1814263032114513203, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -4355,8 +4316,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -4438,8 +4399,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1814263032114513203, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -4546,8 +4507,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -4929,7 +4890,6 @@ GameObject:
   - component: {fileID: 1439508278}
   - component: {fileID: 1439508277}
   - component: {fileID: 1439508279}
-  - component: {fileID: 1439508280}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -4994,28 +4954,6 @@ MonoBehaviour:
   highScore: 0
   scoreText: {fileID: 867808391}
   highScoreText: {fileID: 1691213568}
---- !u!114 &1439508280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439508276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d9303de641e9654886154e733788cb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SFX_Source: {fileID: 1608310383}
-  audioClipDatas:
-  - audioType: 0
-    audioClip: {fileID: 8300000, guid: fb2287d3ba477784c924d1b0c6f58d5d, type: 3}
-  - audioType: 1
-    audioClip: {fileID: 8300000, guid: e92f807c0868c9c4faf7baaffe4f7938, type: 3}
-  - audioType: 2
-    audioClip: {fileID: 8300000, guid: 03264a6b611291e478d2a4bca2922fde, type: 3}
-  - audioType: 3
-    audioClip: {fileID: 8300000, guid: 6d49cbd593cd5bf438796183916f0606, type: 3}
 --- !u!1 &1440824181
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,6 +5068,50 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.87, y: 0.76}
   m_EdgeRadius: 0
+--- !u!1 &1500817065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1500817067}
+  - component: {fileID: 1500817066}
+  m_Layer: 0
+  m_Name: PollObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1500817066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500817065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076bf96733898fc46a19c66ff78b2eb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pollList: []
+--- !u!4 &1500817067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500817065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1533479311
 GameObject:
   m_ObjectHideFlags: 0
@@ -5184,8 +5166,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1814263032114513203, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -5248,6 +5230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1608310385}
+  - component: {fileID: 1608310386}
   - component: {fileID: 1608310384}
   - component: {fileID: 1608310383}
   m_Layer: 0
@@ -5463,6 +5446,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1608310386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608310382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9303de641e9654886154e733788cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFX_Source: {fileID: 1608310383}
+  audioClipDatas:
+  - audioType: 0
+    audioClip: {fileID: 8300000, guid: fb2287d3ba477784c924d1b0c6f58d5d, type: 3}
+  - audioType: 1
+    audioClip: {fileID: 8300000, guid: e92f807c0868c9c4faf7baaffe4f7938, type: 3}
+  - audioType: 2
+    audioClip: {fileID: 8300000, guid: 03264a6b611291e478d2a4bca2922fde, type: 3}
+  - audioType: 3
+    audioClip: {fileID: 8300000, guid: 6d49cbd593cd5bf438796183916f0606, type: 3}
 --- !u!1 &1653309565
 GameObject:
   m_ObjectHideFlags: 0
@@ -5590,8 +5595,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -5672,8 +5677,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -5888,8 +5893,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -5970,8 +5975,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6046,11 +6051,9 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 0
   spawnObjects:
-  - Name: Biglog
-    spawnObject: {fileID: 6929440039300642731, guid: 1d567b03dfc19ee4c84fe004beb51249,
-      type: 3}
-    pollEvent: []
-  spawnTime: 3.5
+  - {fileID: 6929440039300642731, guid: 1d567b03dfc19ee4c84fe004beb51249, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 3
   moveSpeed: 4
   startSpawnTime: 0.25
 --- !u!114 &1761306361
@@ -6068,11 +6071,9 @@ MonoBehaviour:
   moveDir: 0
   spawnMode: 0
   spawnObjects:
-  - Name: Small Crocodile
-    spawnObject: {fileID: 4325711867482814582, guid: f8b07038f2471e443b53a3f1e2012d5c,
-      type: 3}
-    pollEvent: []
-  spawnTime: 13
+  - {fileID: 4325711867482814582, guid: f8b07038f2471e443b53a3f1e2012d5c, type: 3}
+  spawnTimeMin: 20
+  spawnTimeMax: 25
   moveSpeed: 3
   startSpawnTime: 0
 --- !u!1 &1791225367
@@ -6128,8 +6129,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1601594008581696620, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6410,8 +6411,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6492,8 +6493,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6574,8 +6575,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6691,8 +6692,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6773,8 +6774,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6856,8 +6857,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1814263032114513203, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -6964,8 +6965,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -7039,11 +7040,9 @@ MonoBehaviour:
   moveDir: 1
   spawnMode: 0
   spawnObjects:
-  - Name: Bus
-    spawnObject: {fileID: 6231509881250513362, guid: efaf249f3c065a447873d4e99b3f2b8e,
-      type: 3}
-    pollEvent: []
-  spawnTime: 5
+  - {fileID: 6231509881250513362, guid: efaf249f3c065a447873d4e99b3f2b8e, type: 3}
+  spawnTimeMin: 5
+  spawnTimeMax: 7
   moveSpeed: 2
   startSpawnTime: 0.25
 --- !u!1 &2117462356
@@ -7104,8 +7103,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1421508375
-  m_SortingLayer: 0
+  m_SortingLayerID: -699109737
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 795327450753191090, guid: 959b6d175e20b0a4a907148cf5a8bac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7198,7 +7197,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.0023226738}
+  m_Offset: {x: 0, y: 0.034533978}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7209,7 +7208,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.82356036, y: 0.80025387}
+  m_Size: {x: 0.7594615, y: 0.6239824}
   m_EdgeRadius: 0
 --- !u!114 &2117462363
 MonoBehaviour:
@@ -7279,8 +7278,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 44623599
-  m_SortingLayer: 0
+  m_SortingLayerID: -1747259593
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7671313565423444726, guid: 959b6d175e20b0a4a907148cf5a8bac3,
     type: 3}
@@ -7354,10 +7353,8 @@ MonoBehaviour:
   moveDir: 1
   spawnMode: 0
   spawnObjects:
-  - Name: Snake
-    spawnObject: {fileID: 5824517638300322316, guid: 596dd581082be9540b6890bd2540a944,
-      type: 3}
-    pollEvent: []
-  spawnTime: 25
+  - {fileID: 5824517638300322316, guid: 596dd581082be9540b6890bd2540a944, type: 3}
+  spawnTimeMin: 2
+  spawnTimeMax: 3
   moveSpeed: 4
   startSpawnTime: 25

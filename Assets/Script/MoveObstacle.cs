@@ -76,4 +76,12 @@ public class MoveObstacle : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Move" || other.gameObject.tag == "Obstacle")
+        {
+            this.gameObject.SetActive(false);
+        }
+    }
 }
